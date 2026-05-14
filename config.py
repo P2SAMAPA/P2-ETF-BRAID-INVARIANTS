@@ -18,6 +18,6 @@ UNIVERSES = {
 }
 
 # Rolling windows to evaluate (days)
-WINDOWS = [63, 126, 252]
+WINDOWS = [63, 126, 252, 504]   # added 504
 
 TOP_N = 3
