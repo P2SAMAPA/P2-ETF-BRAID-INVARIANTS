@@ -24,7 +24,7 @@ st.sidebar.markdown("## 🧬 Braid Invariants")
 st.sidebar.markdown(f"**Run Date:** `{st.session_state.get('run_date', 'Not loaded')}`")
 st.sidebar.markdown(f"**Next Trading Day:** `{next_trading_day()}`")
 st.sidebar.markdown("**Method:** Braid group crossing counts")
-st.sidebar.markdown("**Windows:** 63, 126, 252 days (best per ETF)")
+st.sidebar.markdown("**Windows:** 63, 126, 252, 504 days (best per ETF)")
 
 OUTPUT_REPO = config.OUTPUT_REPO
 HF_TOKEN = config.HF_TOKEN
